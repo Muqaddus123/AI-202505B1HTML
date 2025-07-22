@@ -11,20 +11,26 @@ header .container li button{
     padding: 10px;
 }
 header .container .navbar .logo img{
+    height: 50%;
+    width: 100%;
     /* border: 1px solid green; */
     /* background-color: rgb(25, 25, 65); */
     position: relative;
+    top: 20PX;
+    margin-left: 40px;
     /* top: 1px; */
-    padding: 10px;
+    /* padding: 10px;
     margin-left: 15px;
-    bottom: 10px;
+    bottom: 10px; */
+    /* background-color: yellow; */
 }
 header .container .navbar{
     height: inherit;
-    width: 85%;
+    width: 95%;
     /* border: 5PX solid black; */
     margin: 0px auto;
     display: flex;
+    /* background-color: gainsboro; */
     justify-content: space-between;
 }
 header .container .navbar .logo{
@@ -34,14 +40,17 @@ header .container .navbar .logo{
 }
 header .container .navbar .nav{
     height: inherit;
-    width: 75%;
+    width: 80%;
     /* border: 1px solid orange; */
 }
 header .container .navbar .nav ul{
     /* background-color: rgb(75, 102, 22); */
     padding: 10px;
     position: relative;
+    left: 40px;
     top: 15px;
+
+    /* background-color: yellow; */
 }
  header .container .navbar .nav ul li{
     display: inline;
@@ -74,7 +83,6 @@ header .container .navbar .nav ul{
 }
 .dropdown{
     position: absolute;
-    /
     left: 30px;
     width: 100px;
     padding: 10px;
@@ -112,16 +120,32 @@ header .container .navbar .nav ul{
     background-color: rgb(22, 22, 46);
     height: 600px;
     width: 100%;
-    background-size: cover;
+    position: relative;
+    bottom: 50px;
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
 }
 #cover .background .col{
-    width: 40px;
-    padding: 10px;
-    position: relative;
-    top: 30%;
-    left: 5%;
+  width: 70%;
+  /* background-color: yellow; */
+  margin:  0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#cover .background .col h2{
+  
+   text-align:  center;
+   padding: 10px;
+   font-size: 45px;
+   color:  white;
 }
 /* cover image css end */
+#post{
+    background-color: #b73439 !important;
+    border-radius: 5px;
+    /* width: 300px !important;
+    height: 100px !important; */
+}
