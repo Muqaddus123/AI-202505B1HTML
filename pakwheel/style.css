@@ -1,4 +1,16 @@
- header .container{
+header .header{
+    color: white;
+    /* border-bottom: 1px solid rgb(197, 194, 194); */
+    background-color: rgb(15, 15, 53);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 5px;
+    padding-left: 110px;
+    padding-right: 200px;
+    text-align: center;
+}
+header .container{
    width: 100%;
     height: 100px;
     background-color: rgb(19, 19, 44);
@@ -7,7 +19,7 @@ header .container li button{
     float: right;
     background-color: red;
     width: 15%;
-   margin-top: 0PX;
+   margin-top: 30PX;
     padding: 10px;
 }
 header .container .navbar .logo img{
@@ -16,7 +28,7 @@ header .container .navbar .logo img{
     /* border: 1px solid green; */
     /* background-color: rgb(25, 25, 65); */
     position: relative;
-    top: 20PX;
+    top: 30PX;
     margin-left: 40px;
     /* top: 1px; */
     /* padding: 10px;
@@ -136,11 +148,45 @@ header .container .navbar .nav ul{
 }
 
 #cover .background .col h2{
-  
    text-align:  center;
    padding: 10px;
    font-size: 45px;
    color:  white;
+}
+#cover .background .col p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    bottom: 50px;
+    position: relative;
+    top: -55px;
+}
+#cover .background .col .colume{
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    border-radius: 5px;
+}
+#cover .background .col .colume ul{
+    color: white;
+    border: 5px solid white;
+    position: relative;
+    /* background-color: blueviolet; */
+    border-top-left-radius: 4px;
+    padding: 10px;
+    /* text-align: center; */
+    /* boreder-top-right-radius: 4px; */
+}
+#cover .background .col .colume ul li{
+    display: inline;
+    padding: 10px;
+    margin-left: 110px;
+    color: black;
+
 }
 /* cover image css end */
 #post{
